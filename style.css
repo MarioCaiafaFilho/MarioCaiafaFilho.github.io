@@ -2,6 +2,7 @@ body{
     background-image: url(imagens/OSiteestámudando1.png);
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
+    min-width: 801px;
 }
 
 @media screen and (max-width: 800px){
