@@ -1,7 +1,7 @@
 body{
     background-image: url(imagens/OSiteestámudando1.png);
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100vw 90vh;
 }
 
 @media screen and (max-width: 800px){
@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
      background-image: url(imagens/rep.png);
-     background-size: 100vw 100vh;
+     background-size: 100vw 90vh;
    
    }
 }
