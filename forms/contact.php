@@ -19,7 +19,7 @@
   $contact->subject = $_POST['subject'];
 
   $contact->smtp = array(
-    'host' => 'email-ssl.com.br ',
+    'host' => ' https://webmail-seguro.com.br/bonavereadvocacia.com/',
     'username' => 'faleconosco@bonavereadvocacia.com',
     'password' => '21102017Me@',
     'port' => '587'
