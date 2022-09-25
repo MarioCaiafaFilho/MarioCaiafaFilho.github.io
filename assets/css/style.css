@@ -74,7 +74,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding: 0 100px;
   width: 50vw;
 }
 
@@ -179,7 +179,10 @@ h6 {
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
+    left: 0;
+  }
+  .navbar{
+    margin-inline: 0 auto;
   }
 }
 
@@ -193,6 +196,7 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  margin: 0 auto;
 }
 
 @media (max-width: 991px) {
@@ -434,6 +438,19 @@ section {
   color: #151515;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 0 0 60px 0;   
+  }
+  .row{
+    width: 95%;
+    margin: 100px auto -30px;
+  }
+  .about{
+    margin: -100px 0 -80px 0;
+  }
+  
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
